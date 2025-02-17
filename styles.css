@@ -1,0 +1,60 @@
+/*Testing */
+* {border:1px solid red}  
+
+/*
+    Color Pallete:
+    Maroon: 800000
+    Choclate Cosmos: 5B2328
+    Charcoal: 36454F
+    Cadet Gray: 9BA2A7
+    White: FFFFFF
+*/
+
+:root {
+    --nav-text: #36454f;
+    --primary-color: white;
+    --secondary-color: maroon;
+    --hover-color: #5B2328;
+}
+
+body {
+    display: flex;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: var(--nav-text);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--secondary-color);
+}
+
+.global-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
